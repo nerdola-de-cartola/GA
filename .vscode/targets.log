@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul  6 16:50:46 2022
+# Make data base, printed on Tue Jul 19 15:06:37 2022
 
 # Variables
 
@@ -17,11 +17,9 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
 # default
 .SHELLFLAGS := -c
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -33,29 +31,27 @@ CURDIR := /mnt/c/Users/mathe/OneDrive/Projetos/GA
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"195456cb6bc5e7dd989215cd334fb359.pt-br","_translationsConfigFile":"/home/matheus-lucas/.vscode-server/data/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/tcf.json","_cacheRoot":"/home/matheus-lucas/.vscode-server/data/clp/195456cb6bc5e7dd989215cd334fb359.pt-br","_resolvedLanguagePackCoreLocation":"/home/matheus-lucas/.vscode-server/data/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/home/matheus-lucas/.vscode-server/data/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"dc7ba51c4efcfec965eaa07de065afd6.pt-br","_translationsConfigFile":"/home/matheus-lucas/.vscode-server/data/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/tcf.json","_cacheRoot":"/home/matheus-lucas/.vscode-server/data/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br","_resolvedLanguagePackCoreLocation":"/home/matheus-lucas/.vscode-server/data/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"/home/matheus-lucas/.vscode-server/data/clp/dc7ba51c4efcfec965eaa07de065afd6.pt-br/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/matheus-lucas/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+_ = /mnt/c/Users/mathe/AppData/Local/Programs/Microsoft VS Code/bin/code
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 VSCODE_CWD = /mnt/c/Users/mathe/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/matheus-lucas/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/matheus-lucas/.zinit/polaris/bin:/home/matheus-lucas/.asdf/shims:/home/matheus-lucas/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Hitachi Software Engineering/FX-DuoDriver/:/mnt/c/Users/mathe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mathe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mathe/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/CLion 2021.3.4/bin
+PATH = /home/matheus-lucas/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/matheus-lucas/.zinit/polaris/bin:/home/matheus-lucas/.asdf/shims:/home/matheus-lucas/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Hitachi Software Engineering/FX-DuoDriver/:/mnt/c/Users/mathe/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mathe/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/mathe/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/CLion 2021.3.4/bin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
-VSCODE_LOG_STACK = false
+ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-1161868b-863f-4c90-bcb4-404fd8934875.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-ad84aa97-a6d1-45d4-beee-c314df062fd2.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -65,15 +61,15 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 # environment
 DISPLAY = :0
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 PWD = /mnt/c/Users/mathe/OneDrive/Projetos/GA
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/4921_interop
+WSL_INTEROP = /run/WSL/7759_interop
 # environment
 PULSE_SERVER = /mnt/wslg/PulseServer
+# environment
+WT_SESSION = 66894aea-5f74-42a9-9679-0f4d01fd462a
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -81,7 +77,7 @@ HOME = /home/matheus-lucas
 # environment
 LOGNAME = matheus-lucas
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 ZSH = /home/matheus-lucas/.oh-my-zsh
 # environment
@@ -95,7 +91,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -103,7 +99,7 @@ USER = matheus-lucas
 # makefile
 .DEFAULT_GOAL := 
 # environment
-NAME = LAPTOP-4PGSC9P6
+NAME = Code
 # environment
 LESS = -R
 # automatic
@@ -134,6 +130,8 @@ MFLAGS = -pqrR
 +F = $(notdir $+)
 # environment
 VSCODE_HANDLES_SIGPIPE = true
+# environment
+WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
 # environment
 PMSPEC = 0uUpiPsf
 # default
@@ -167,11 +165,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_EXTHOST_WILL_SEND_SOCKET = true
-# environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=79/1024=8%, Rehash=0, Collisions=4/101=4%
+# Load=77/1024=8%, Rehash=0, Collisions=4/99=4%
 
 # Pattern-specific Variable Values
 
@@ -179,9 +175,9 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 75, inode 19140298416422064): 15 files, no impossibilities.
+# . (device 75, inode 19140298416422064): 17 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -231,12 +227,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 193 B / avg = 8 B
-# current buf: size = 8162 B / used = 193 B / count = 23 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 229 B / avg = 9 B
+# current buf: size = 8162 B / used = 229 B / count = 25 / avg = 9 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 28 / hit rate = 10%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Wed Jul  6 16:50:46 2022
+# Load=25/8192=0%, Rehash=0, Collisions=1/28=4%
+# Finished Make data base on Tue Jul 19 15:06:37 2022
 
  

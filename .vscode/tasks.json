@@ -2,17 +2,18 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc-9 arquivo de build ativo",
-            "command": "/usr/bin/gcc-9",
+            "label": "C/C++: gcc arquivo de build ativo",
+            "command": "/usr/bin/gcc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "ga.c",
-                "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                " ga.c",
+                "`pkg-config --cflags --libs gtk+-3.0`",
                 "-lm",
-                "-Wall"
+                "-Wall",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${fileDirname}"
